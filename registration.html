@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="shortcut icon"
+			href="./assets/Imagenes/LogoMightyducks-01.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./assets/styles/mdhl.css" />
+		<title>Registration</title>
+	</head>
+
+	<body>
+		<header>
+			<img
+				src="./assets/Imagenes/MightyDucksTittle.png"
+				alt="MightyDucksTittle"
+			/>
+		</header>
+
+		<main>
+			<div class="divnav">
+				<nav>
+					<a href="./index.html">Home</a>
+					<a href="./about.html">About</a>
+					<a href="./rules.html">Rules</a>
+					<a href="./game_info.html">Game Information</a>
+					<a href="#">Registration Form</a>
+					<a href="./contact.html">Contact</a>
+				</nav>
+				<h2>Registration Form</h2>
+			</div>
+			<div class="contenedor">
+				<div class="divform">
+					<form action="./show_data.html" method="get">
+						<fieldset>
+							<label for="fName">Player's First Name:</label>
+							<input type="text" id="fName" name="fName" class="textForm" />
+							<label for="lName">Last Name:</label>
+							<input
+								type="text"
+								id="lName"
+								name="lName"
+								class="textForm"
+							/><br />
+							<label for="sName">Steet Address:</label>
+							<input
+								type="text"
+								id="sName"
+								name="sName"
+								class="textForm"
+							/><br />
+							<label for="city">City:</label>
+							<input type="text" id="city" name="city" class="textForm" />
+							<label for="zCode">Zip Code:</label>
+							<input
+								type="text"
+								id="zCode"
+								name="zCode"
+								class="textForm"
+							/><br />
+							<label for="bDate">Birth Date(mm/dd/yyyy):</label>
+							<input type="date" id="bDate" name="bDate" />
+							<label>Gender:</label>
+							<input type="radio" id="female" name="gender" value="Female" />
+							<label for="female">Female</label>
+							<input type="radio" id="male" name="gender" value="Male" />
+							<label for="male">Male</label><br />
+							<label>Grade:</label>
+							<input
+								type="radio"
+								id="preSchool"
+								name="grade"
+								value="Pre-School"
+							/>
+							<label for="preSchool">Pre-School</label>
+							<input type="radio" id="first" name="grade" value="1st" />
+							<label for="first">1st</label>
+							<input type="radio" id="second" name="grade" value="2nd" />
+							<label for="second">2nd</label>
+							<input type="radio" id="third" name="grade" value="3rd" />
+							<label for="third">3rd</label>
+							<input type="radio" id="fourth" name="grade" value="4th" />
+							<label for="fourth">4th</label>
+							<input type="radio" id="fifth" name="grade" value="5th" />
+							<label for="fifth">5th</label>
+						</fieldset>
+						<fieldset>
+							<h3>Wich elementary school do you live near?</h3>
+							<h4>Closest School:</h4>
+							<br />
+							<div class="check1">
+								<label
+									><input
+										type="radio"
+										id="AJ"
+										name="cSchool"
+										value="AJ
+                  Katzenmaier"
+									/>AJ Katzenmaier</label
+								><br />
+								<label>
+									<input
+										type="radio"
+										id="gBay"
+										name="cSchool"
+										value="Greenbay"
+									/>Greenbay </label
+								><br />
+								<label
+									><input
+										type="radio"
+										id="howard"
+										name="cSchool"
+										value="Howard A Yeager"
+									/>Howard A Yeager</label
+								>
+							</div>
+							<div class="check1">
+								<label
+									><input
+										type="radio"
+										id="mPH"
+										name="cSchool"
+										value="Marjorie P Hart"
+									/>Marjorie P Hart</label
+								>
+								<br />
+								<label
+									><input
+										type="radio"
+										id="nElement"
+										name="cSchool"
+										value="North Elementary"
+									/>North Elementary</label
+								>
+								<br />
+								<label
+									><input
+										type="radio"
+										id="sElement"
+										name="cSchool"
+										value="South Elementary"
+									/>SouthElementary</label
+								>
+							</div>
+						</fieldset>
+						<fieldset>
+							<h3>
+								What position(s) do you normally play? (Check all that apply)
+							</h3>
+							<div class="check2">
+								<label>
+									<input
+										type="checkbox"
+										id="forward"
+										name="position"
+										value="Forward"
+									/>Forward</label
+								><br />
+								<label
+									><input
+										type="checkbox"
+										id="defense"
+										name="position"
+										value="Defense"
+									/>Defense</label
+								>
+							</div>
+							<div class="check2">
+								<label
+									><input
+										type="checkbox"
+										id="midfield"
+										name="position"
+										value="Midfield"
+									/>Midfield</label
+								>
+								<br />
+								<label
+									><input
+										type="checkbox"
+										id="goalKeeper"
+										name="position"
+										value="Goalkeeper"
+									/>Goalkeeper</label
+								>
+							</div>
+						</fieldset>
+						<fieldset>
+							<h3>Uniform Size</h3>
+							<div class="check">
+								<label
+									><input
+										type="radio"
+										id="ySmall"
+										name="uniformSize"
+										value="Youth Small"
+									/>Youth Small</label
+								>
+								<br />
+								<label>
+									<input
+										type="radio"
+										id="yMedium"
+										name="uniformSize"
+										value="Youth Medium"
+									/>Youth Medimum</label
+								>
+								<br />
+								<label>
+									<input type="radio" id="yLarge" name="uniformSize" />Youth
+									Large</label
+								>
+								<br />
+								<label>
+									<input
+										type="radio"
+										id="small"
+										name="uniformSize"
+									/>Small</label
+								>
+								<br />
+							</div>
+							<div class="check">
+								<label>
+									<input type="radio" id="medium" name="uniformSize" />Medium
+								</label>
+								<br />
+								<label>
+									<input
+										type="radio"
+										id="large"
+										name="uniformSize"
+									/>Large</label
+								>
+								<br />
+								<label>
+									<input
+										type="radio"
+										id="extraLarge"
+										name="uniformSize"
+									/>Extra-Large</label
+								>
+								<br />
+							</div>
+
+							<h3>Permision to play</h3>
+							<br />
+							<p>
+								I, the parent or guardian of the minor registrant, agree that
+								the registrant and I will abide by all the rules of the Mighty
+								Ducks Hockey League (MDHL). In recognizing the possibility of
+								physical injury associated with hockey and in consideration for
+								the "League" accepting the registrant for its hockey programs
+								and activities, I hereby release, discharge, and/or otherwise
+								indemnify MDHL, their employees and associated personnel and
+								volunteers, including the facilities used for practices and
+								games, against any claim by or on behalf of the registrant as a
+								result of the registrant's participation in the
+								programand/orbeing transported to or from MDHL sponsored
+								activities, which transportation By entering your name below, I
+								here by agree and authorize the above. In addition, by entering
+								your name below, I also acknowledge that I have read the
+								cancellation policy and agree to its terms.
+							</p>
+							<label for="pgName">Parent/Guardian Name:</label>
+							<input type="text" id="pgName" name="pgName" class="textForm" />
+							<br />
+							<label for="date2">Date:</label>
+							<input type="date" name="date2" id="date2" />
+							<br />
+							<br />
+							<input type="submit" value="Submit" />
+						</fieldset>
+					</form>
+				</div>
+				<div>
+					<img
+						class="hockey"
+						src="./assets/Imagenes/hockey3.jpg"
+						alt="imagen de hockey 3"
+					/>
+				</div>
+			</div>
+		</main>
+		<div>
+			<img
+				class="logoflex"
+				src="./assets/Imagenes/LogoMightyducks-01.png"
+				alt="logo mighty ducks"
+			/>
+		</div>
+		<footer>
+			<p>Dante Vilches Cohort 38 ©</p>
+		</footer>
+	</body>
+</html>
