@@ -6,12 +6,16 @@
 }
 header {
 	background-image: url(../Imagenes/design1_image1.jpg);
-	height: 25rem;
+	height: 30vh;
 	background-size: cover;
 	background-position: center;
 	display: flex;
 	justify-content: center;
 }
+#imgTittle {
+	height: 25vh;
+}
+
 .logoflex {
 	height: 15vh;
 	position: fixed;
