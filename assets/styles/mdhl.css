@@ -275,8 +275,13 @@ input {
 	width: 100%;
 	border-radius: 0.3rem;
 }
+
+#bDate {
+	background-color: rgba(128, 128, 128, 0.774);
+}
 #date2 {
 	height: 3.3vh;
+	background-color: transparent;
 }
 
 #first,
