@@ -7,11 +7,13 @@
 header {
 	background-image: url(../Imagenes/design1_image1.jpg);
 	height: 30vh;
+	width: 100%;
 	background-size: cover;
 	background-position: center;
 	display: flex;
 	justify-content: center;
 }
+
 #imgTittle {
 	margin-top: 3vh;
 	height: 25vh;
@@ -105,7 +107,7 @@ article h1 {
 	text-indent: 3vh;
 }
 footer {
-	margin-top: 16.2vh;
+	margin-top: 21vh;
 	background-color: #252228;
 	color: #f7f7f8;
 	display: flex;
@@ -253,7 +255,7 @@ input {
 	width: 100%;
 }
 #date2 {
-	height: 3vh;
+	height: 3.3vh;
 }
 
 #first,
@@ -262,4 +264,29 @@ input {
 #fourth,
 #fifth {
 	margin-left: 2vw;
+}
+@media screen and (max-width: 850px) {
+	.divnav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#imgTittle {
+		width: 70%;
+		margin-top: 3vh;
+		height: 25vh;
+	}
+	.hockey {
+		margin-left: 3vh;
+		width: 90%;
+	}
+	.divform {
+		width: 100%;
+	}
+	.check,
+	.check1,
+	.check2 {
+		font-size: 3vh;
+		flex-wrap: wrap;
+		width: 100%;
+	}
 }
