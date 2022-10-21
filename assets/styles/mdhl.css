@@ -198,7 +198,7 @@ li {
 	margin-top: 3vh;
 	display: inline-flex;
 	flex-direction: column;
-	height: 23vh;
+	height: 27vh;
 	width: 15vw;
 }
 .check1 {
@@ -234,17 +234,32 @@ form {
 #lName,
 #fName,
 #city {
-	width: 19.9vw;
+	width: 25%;
 }
 #sName {
-	width: 50.4vw;
+	width: 40%;
 }
 
 #zCode {
-	width: 30.4vw;
+	width: 40%;
 }
 
 input {
 	font-family: "Nunito", sans-serif;
 	font-size: 1.5rem;
+}
+
+#send {
+	width: 100%;
+}
+#date2 {
+	height: 3vh;
+}
+
+#first,
+#second,
+#third,
+#fourth,
+#fifth {
+	margin-left: 2vw;
 }
