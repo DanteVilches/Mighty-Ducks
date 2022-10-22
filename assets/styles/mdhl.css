@@ -14,6 +14,9 @@ header {
 	justify-content: center;
 }
 
+body {
+	background-color: #e7e6f4;
+}
 #imgTittle {
 	margin-top: 3vh;
 	height: 25vh;
@@ -58,7 +61,7 @@ header {
 }
 .divnav {
 	border: 2px solid black;
-	/*  background-color: rgb(10, 0, 65); */
+
 	background-color: rgb(100, 0, 0);
 	display: flex;
 }
@@ -226,7 +229,7 @@ li {
 	display: inline-flex;
 	flex-direction: column;
 	height: 20vh;
-	width: 15vw;
+	width: 40%;
 }
 
 .check2 {
@@ -243,10 +246,6 @@ li {
 	border-left: none;
 }
 
-/* fieldset {
-	 	padding: 2vh; 
- 	height: 29vh;
-}  */
 form {
 	color: white;
 	font-size: 1.5rem;
@@ -314,5 +313,15 @@ input {
 		font-size: 3vh;
 		flex-wrap: wrap;
 		width: 100%;
+	}
+	.gameInfo {
+		width: 100%;
+	}
+	.gameInfob {
+		width: 90%;
+	}
+	.divgame {
+		display: flex;
+		flex-wrap: wrap;
 	}
 }
